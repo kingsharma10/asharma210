@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="/w3images/avatar_smoke.jpg" style="width:100%">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <a href="#projects" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>PROJECTS</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>SOCIALS</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#projects" class="w3-bar-item w3-button" style="width:25% !important">PROJECTS</a>
+    <a href="#socials" class="w3-bar-item w3-button" style="width:25% !important">SOCIALS</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Ananya Sharma</h1>
+    <p>Podcaster and Content Creator</p>
+    <img src="/w3images/man_smoke.jpg" alt="boy" class="w3-image" width="992" height="1108">
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 style="text-align:left;" class="w3-text-light-grey">About Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p>I am currently a senior at DePaul University studying Computer Science. I love coding, but my passion lies in content creation and podcasting. I have a podcast called The Nevaland Podcast where me and one of my best friends talk about things like basketball, music, and any current events that may interest us. We occasionally have guests who range from artists, designers, and other content creators.
+        <br><br>I also have made a playable, two-person game at school and documented the whole process on video. The links to the videos will be down below to view for yourself. The game is not currently live, but all of the visuals are shown below with a demo in the videos.<br><br>
+        Previously, I had a YouTube channel where we discussed basketball and music, but then there were also random vlogs or videos that helped me learn editing and develop a passion for it. Some of my personal favorite videos are shown below.<br><br>
+        For fun, I have made many graphic designs and animations related to my podcast.
+    </p>
+    <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
+    <p class="w3-wide">Podcasting</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:95%"></div>
+    </div>
+    <p class="w3-wide">Coding</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:85%"></div>
+    </div>
+    <p class="w3-wide">Video Editing</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:80%"></div>
+    </div><br>
+    </div>
+    <head>
+        <title>Center align button</title>
+        <style>
+            body {
+                text-align: center;
+            }
+        </style>
+    </head>
+    <button class="w3-button w3-light-grey w3-padding-large w3-section">
+        <i class="fa fa-download"></i> Download Resume
+    </button>
+    
+    </div>
+  <!-- End About Section -->
+  </div>
+  
+  <!-- Portfolio Section -->
+  <div class="w3-padding-64 w3-content" id="projects">
+      <br><br>
+    <h2 style="text-align:left;" class="w3-text-light-grey">Projects</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <h3 class="w3-padding-16 w3-text-light-grey">The Nevaland Podcast</h3>
+    <p>Episode 74: "I Want My Own Respect Too"</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/dWnRbfQpSt0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe src="https://open.spotify.com/embed-podcast/episode/6IrnWAbnWcSal93vmKcviP" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    <p>Episode 71: The Spectrum of Music w/ Malik</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/wBBqH8rKo50" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe src="https://open.spotify.com/embed-podcast/episode/1nwYqLA7xru0TcBGPFN1B2" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    
+    <br><br><h3 class="w3-padding-16 w3-text-light-grey">Who's the Bot Game</h3>
+    <p>Introduction</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/lS8Qy4l4rFA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <p>Initial Ideas and Design of the Game</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/bjn4G_-jE-s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <p>Rough Concept and Visual of the Game</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/aneHhFWBtFY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <p>Final Version of the Playable Game</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/tPqyIwUKXNU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <br><br><h3 class="w3-padding-16 w3-text-light-grey">Cultured TV</h3>
+    <p>Craziest Game of H.O.R.S.E Ever!!!!!</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/x6iLaAnoKyo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <p>Travis Scott-Astroworld After the Hype</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/JBoApz0JSNk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <img src="/w3images/wedding.jpg" style="width:100%">
+        <img src="/w3images/rocks.jpg" style="width:100%">
+        <img src="/w3images/sailboat.jpg" style="width:100%">
+      </div>
+
+      <div class="w3-half">
+        <img src="/w3images/underwater.jpg" style="width:100%">
+        <img src="/w3images/chef.jpg" style="width:100%">
+        <img src="/w3images/wedding.jpg" style="width:100%">
+        <img src="/w3images/p6.jpg" style="width:100%">
+      </div>
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 style="text-align:left;" class="w3-text-light-grey">Contact Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i style="text-align:center;" class="fa fa-instagram fa-twitter-square fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> <a href="https://www.instagram.com/asharma210/">@asharma210</a></p>
+      <p><i style="text-align:center;" class="fa fa-twitter-square fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> <a href="https://twitter.com/asharma210">@asharma210</a></p>
+      <p><i style="text-align:center;" class="fa fa-twitch fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> <a href="https://www.twitch.tv/asharma210">asharma210</a></p>
+      <p><i style="text-align:center;" class="fa fa-podcast fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> <a href="https://nevalandprod.com/">The Nevaland Podcast</a></p>
+      <p><i style="text-align:center;" class="fa fa-youtube fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> <a href="https://www.youtube.com/channel/UCyRQabvLb8BX7CaJ5LSWvMA">The Nevaland Podcast</a></p>
+    </div><br>
+    <p>Let's get in touch. Send me a message:</p>
+
+  <!-- End Contact Section -->
+  </div>
+  
+    <!-- Footer -->
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+    <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+  <!-- End footer -->
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
